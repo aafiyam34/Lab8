@@ -15,7 +15,7 @@ public class CustomListTest {
         CustomList list = new CustomList(null, new ArrayList<>());
         return list;
     }
-
+    @Test
     public void addCityTest(){
         CustomList list = MockCityList();
         int expectedCountBeforeAdd = 0;
